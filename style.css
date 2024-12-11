@@ -8,13 +8,11 @@
 html{
     font-size: 100%;
 }
-body{
-    /* Here you can set your default font-family, line-height 
-        You can also use max-width and auto margins to limit the width of the page content
-        If you set a background-color here it will be the site background color.
-    */
 
+body{
+    
 }
+
 h1,h2,h3,h4,h5,h6{
     /* Here you can set the font-family for your headings */
 
@@ -55,7 +53,7 @@ nav li
 {
     display: inline; /* brings nav elements up next to each other */
     list-style-type: none; /* removes the bullet points */
-    padding-right: 20px; /* spaces them out from each other. Adjust to suit your needs */
+    padding-right: 50px; /* spaces them out from each other. Adjust to suit your needs */
 }
 /* Change this to whatever color you want your nav and visited nav links to be */
 nav li a{
@@ -101,3 +99,5 @@ img,video{
     width: 100%;
     height: 100%;
   }
+
+ 
