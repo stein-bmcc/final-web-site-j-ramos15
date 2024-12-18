@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 img, video{
     max-width: 100%;
@@ -25,6 +26,24 @@ h1{
     text-align: center;
 }
 
+h2{
+    font-size: 29px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+h3{
+    font-size: 20px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
 h4{
     font-size: 30px;
     font-family: "Outfit", serif;
@@ -32,6 +51,24 @@ h4{
     font-weight: 200;
     font-style: normal;
     color: rgb(11, 11, 60);
+}
+
+h5{
+    font-size: 19px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+p{
+    font-size: 19px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
 }
 
 a{
