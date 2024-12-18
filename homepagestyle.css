@@ -3,13 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+img, video{
+    max-width: 100%;
+    height: auto;
+}
 
 h1{
     font-size: 50px;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    color: rgb(26, 26, 75);
+    color: #1a1a4b;
     text-align: center;
 }
 
@@ -20,6 +27,15 @@ h2{
     font-weight: 400;
     font-style: normal;
     color: rgb(0, 0, 0);
+}
+
+h3{
+    font-size: 50px;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: #1a1a4b;
 }
 
 h4{
@@ -76,6 +92,14 @@ body{
         margin-right: auto;
         background-color: rgb(216, 239, 255);
 }
+
+figure{
+    font-size: 15px;
+    font-family: Roboto, serif;
+    font-weight: 400;
+    color: black;
+}
+
 .site-title{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -88,7 +112,16 @@ body{
 }
 
 footer{
-    font-size: 15px;
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+figcaption{
+    font-size: 23px;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-weight: 400;
